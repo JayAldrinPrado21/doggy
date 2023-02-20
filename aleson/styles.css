@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 700px;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    font-size: 1.5rem;
+    
+}
+
+.header .logo {
+    font-weight: bolder;
+    font-size: 37px;
+    letter-spacing: 1.5px;
+}
+
+.banner {
+    background-size: 80%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    background-position-x: 320px;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.banner2 {
+    background-size: 40%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    background-position-x: 690px;
+    background-position-y: 500px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.hero-title {
+    max-width: 1200px;
+    margin-left: 2.5rem;
+    padding-top: 11rem;
+}
+
+.hero-title p {
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 100px;
+}
+
+.hero-title .details {
+    width: 37%;
+    font-size: 25px;
+    padding-top: 2rem;
+    font-weight: normal;
+}
+
+.hero-title .learn-more {
+    padding-top: 2rem;
+    size: 100px;
+}
+
+button {
+    width: 12rem;
+    height: 2.5rem;
+    border: none;
+    background: #80471C;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+button:hover {
+cursor: pointer;
+background-color: rgba(255, 255, 255, .9);
+color: black;
+}
