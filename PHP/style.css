@@ -1,0 +1,26 @@
+body{   
+    background: #eee;  
+}  
+  
+#btn{  
+    color: #fff;  
+    background: #337ab7;  
+    padding: 7px;  
+}  
+
+#frm h1 {
+    text-align: center;
+}
+
+#frm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid gray 1px;  
+    width:25%;  
+    border-radius: 2px;  
+    margin: 120px auto;  
+    background: white;  
+    padding: 50px;  
+}
